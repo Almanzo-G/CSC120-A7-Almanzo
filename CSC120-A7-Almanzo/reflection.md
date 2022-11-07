@@ -1,0 +1,13 @@
+Use this file to record your reflection on this assignment.
+
+- Which methods did you decide to `overload`, and why?
+    I have overloaded both a constructor and a method in House, Cafe, and Library class.
+    Firstly, I overloaded the constructor in all three subclasses because I think the person who inputs might not know everything, who might just know the name of the house without having a sense of where it is. Therefore, I've changed the objects inside the class. When running the main with only the name with missing information, for example, would also continue printing out something. I set the default address is Smith College, for example, since even though people don't know about where the specific place the house is located, we still can tell them it's in Smith.
+    For the second overloading, I overload a method in each subclass. In House, it's moveIn method. When someone enters but we don't know her name, this method works and we print out that "someone" has entering but we don't know what the specific name she has.
+    In Cafe, I overload the SellCoffee method by adding the int nCups. Since sometimes people might order several cups of coffee, they might just want more without a specific reason. Therefore, I overloaded it by changing the equation of calculating the remaining cups, which can be more than one, but the default one is still one cup per each if the customer didn't mention how many cups specifically.
+    In Library, I overloaded the goToFloor method by eliminating the object : int floorNum. Since sometimes, at leat I am, people would feel hestitated about choosing a floor to go, they might want a recommendation from the programming. And while running the main, person has no idea about which floor they would go, just a recommendation of second floor would provided as a result.
+    I think my overloading makes sense, but might be strange to someone as well.
+- What worked, what didn't, what advice would you give someone taking this course in the future?
+    Collaboration works, thanks to Xinyun, who has helped me a lot in writing the code. Also thanks to Emma, the TA on Sunday night, also gave me great advice for processing.
+    Only thing I have to mention is that I used the previous version which only has a README file before and that makes me crazy since I just don't know anything I have to do. Luckily, someone told me the new version contains a new building, which helps me a lot.
+    No specific advice, just follow the instruction and that helps a lot.
